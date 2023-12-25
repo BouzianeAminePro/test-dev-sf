@@ -1,0 +1,10 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    php_errors:
+        log: true
+parameters:
+    secret: '%env(APP_SECRET)%'
+    commitstripRssFeedUrl: '%env(COMMIT_STRIP_RSS_FEED_URL)%'
+    newsAPIUrl: '%env(NEWS_API_URL)%'
+    newsAPIKey: '%env(NEWS_API_KEY)%'
+
